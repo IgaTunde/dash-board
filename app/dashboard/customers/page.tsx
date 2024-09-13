@@ -1,9 +1,10 @@
-import React from 'react'
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Customers",
+};
 const Page = () => {
-  return (
-    <div>Customer</div>
-  )
-}
+  return <div>Customer</div>;
+};
 
-export default Page
+export default Page;
